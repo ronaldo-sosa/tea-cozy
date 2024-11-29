@@ -1,1 +1,48 @@
-ht
+body {
+    background-color: black;
+    opacity: 0.9;
+    font-family: Helvetica;
+    color: seashell;
+    font-size: 22px;
+}
+
+.header {
+height: 50px;
+width: 100%;
+display: flex;
+background-color: black;
+border-bottom: 1px solid seashell;
+position: fixed;
+top: 0px;
+z-index: 10;
+
+}
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+nav { 
+    float:right;
+    color: seashell;
+    
+}
+
+li {
+    padding: 5px;
+    list-style: none;
+    display: inline;
+    align-items:basel
+    
+}
+li a {
+    color: seashell
+}
+li a:hover {
+    color: white;
+}
+
+.background { 
+    height: 700px;
+}
